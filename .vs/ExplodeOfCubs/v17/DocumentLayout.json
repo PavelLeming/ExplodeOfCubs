@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\unityprojects\\explodeofcubs\\assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cube.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\Assets\\Scripts\\Cube.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cube.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\Assets\\Scripts\\Cube.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cube.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T05:06:50.694Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
