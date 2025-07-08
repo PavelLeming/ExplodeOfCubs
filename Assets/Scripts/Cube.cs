@@ -5,7 +5,7 @@ using UnityEngine;
 public class Cube : MonoBehaviour
 {
     [SerializeField] private Cube _cubePrefab;
-    [SerializeField] private float _exploadeChance = 1f;
+    private float _exploadeChance = 1f;
     private float _explosionPower = 500f;
     private int _chanceOfAdditionalCube = 25;
 
