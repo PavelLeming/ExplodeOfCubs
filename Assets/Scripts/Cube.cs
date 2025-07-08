@@ -33,7 +33,6 @@ public class Cube : MonoBehaviour
             }
 
             Explode();
-            _exploadeChance /= 2;
         }
         Destroy(gameObject);
     }
@@ -43,6 +42,7 @@ public class Cube : MonoBehaviour
         Cube insantiate = Instantiate(_cubePrefab, transform.position + new Vector3(i * transform.localScale.x / cutScale,
             j * transform.localScale.x / cutScale, k * transform.localScale.x / cutScale), transform.rotation);
         insantiate.GetComponent<Renderer>().material.color = new Color(Random.value, Random.value, Random.value);
+        insantiate._exploadeChance /= 2; 
     }
 
     private void Explode()
