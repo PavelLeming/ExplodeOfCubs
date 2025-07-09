@@ -4,7 +4,7 @@ using UnityEngine;
 public class Raycaster : MonoBehaviour
 {
     [SerializeField] Camera _camera;
-    public event Action<GameObject> CubeTaped;
+    public event Action<Cube> CubeTaped;
     private Ray _ray;
 
     private void Update()
@@ -18,7 +18,7 @@ public class Raycaster : MonoBehaviour
                 if (hit.rigidbody != null)
                 {
                     GameObject hited = hit.collider.gameObject;
-                    CubeTaped?.Invoke(hited);
+                    CubeTaped?.Invoke(hited.GetComponent<Cube>());
                     Destroy(hited);
                 }
             }
