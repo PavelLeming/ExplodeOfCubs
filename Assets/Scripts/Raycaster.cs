@@ -18,8 +18,10 @@ public class Raycaster : MonoBehaviour
                 if (hit.rigidbody != null)
                 {
                     GameObject hited = hit.collider.gameObject;
-                    CubeTaped?.Invoke(hited.GetComponent<Cube>());
-                    Destroy(hited);
+                    if (hited.TryGetComponent<Cube>(out Cube cube))
+                    {
+                        CubeTaped?.Invoke(cube);
+                    }
                 }
             }
         }

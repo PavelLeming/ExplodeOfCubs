@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
-    private float _exploadeChance = 1f;
-    public float ExploadeChance => _exploadeChance;
+    public Vector3 Scale { get; private set; }
+    public Color Color { get; private set; } = Color.white;
+    public float ExploadeChance { get; private set; } = 1f;
+    public Rigidbody Rigidbody { get; private set; }
 
-    public void DecreaseChance()
+    public void Initialize(Vector3 scale, Color color, float exploadeChance, Rigidbody rigidbody)
     {
-        _exploadeChance /= 2;
+        Scale = scale;
+        Color = color;
+        ExploadeChance = exploadeChance;
+        Rigidbody = rigidbody;
     }
 }
