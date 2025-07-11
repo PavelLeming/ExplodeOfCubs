@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
@@ -12,15 +11,15 @@ public class Spawner : MonoBehaviour
         int maximumCubes = 6;
         int cubesCount = Random.Range(minimumCubes, maximumCubes);
 
-        for (int i = -1; i <= 1; i += 2)
+        for (int xOffset = -1; xOffset <= 1; xOffset += 2)
         { 
-            for (int j = -1; j <= 1; j += 2)
+            for (int yOffset = -1; yOffset <= 1; yOffset += 2)
             {
-                for (int k = -1; k <= 1; k += 2)
+                for (int zOffset = -1; zOffset <= 1; zOffset += 2)
                 {
                     if (cubesCount != 0)
                     {
-                        cubes.Add(CreateCube(i, j, k, cutScale, cube));
+                        cubes.Add(CreateCube(xOffset, yOffset, zOffset, cutScale, cube));
                         cubesCount--;
                     }
                 }
