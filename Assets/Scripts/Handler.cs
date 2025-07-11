@@ -31,7 +31,11 @@ public class Handler : MonoBehaviour
                 rigidbodies.Add(item.Rigidbody);
             }
 
-            _exploader.MakeExploade(cube, rigidbodies);
+            _exploader.MakeExploadeOfCubes(cube, rigidbodies);
+        }
+        else
+        {
+            _exploader.MakeExploadeOfCubes(cube, _exploader.GetExplodableObjects(cube));
         }
 
         Destroy(cube.gameObject);

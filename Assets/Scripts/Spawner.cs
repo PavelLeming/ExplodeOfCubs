@@ -7,7 +7,7 @@ public class Spawner : MonoBehaviour
     public List<Cube> Spawn(Cube cube)
     {
         List<Cube> cubes = new List<Cube>();
-        int cutScale = 2;
+        int cutScale = 4;
         int minimumCubes = 2;
         int maximumCubes = 6;
         int cubesCount = Random.Range(minimumCubes, maximumCubes);
