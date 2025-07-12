@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\assets\\scripts\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\unityprojects\\explodeofcubs\\assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\assets\\scripts\\exploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\assets\\scripts\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{123A98B0-D9F1-5289-EEB7-CC9EA86E4496}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -46,37 +46,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Handler.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\Assets\\Scripts\\Handler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Handler.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\Assets\\Scripts\\Handler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Handler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwCUAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T16:05:20.591Z"
+              "WhenOpened": "2025-07-09T16:05:20.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Exploader.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\Assets\\Scripts\\Exploader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Exploader.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\Assets\\Scripts\\Exploader.cs",
               "RelativeToolTip": "Assets\\Scripts\\Exploader.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T13:14:32.914Z"
+              "WhenOpened": "2025-07-09T13:14:32.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\Assets\\Scripts\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\UnityProjects\\ExplodeOfCubs\\Assets\\Scripts\\Spawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Spawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T12:55:08.887Z",
               "EditorCaption": ""

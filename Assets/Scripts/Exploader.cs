@@ -5,7 +5,7 @@ using UnityEngine;
 public class Exploader : MonoBehaviour
 {
     private float _explosionPower = 500f;
-    private float _explosionRadius = 5f;
+    private float _explosionRadius = 10f;
 
     public void MakeExploadeOfCubes(Cube cube, List<Rigidbody> rigidbodies)
     {
@@ -17,6 +17,7 @@ public class Exploader : MonoBehaviour
                 Vector3 objectPostion = explodableObject.transform.position;
                 float powerModificator = _explosionRadius / Vector3.Distance(cubePostion, objectPostion);
                 Debug.Log(powerModificator);
+
                 if (powerModificator >= 1)
                 {
                     explodableObject.AddExplosionForce(_explosionPower * (1 / cube.transform.localScale.x), cube.transform.position, cube.transform.localScale.x / 2);
